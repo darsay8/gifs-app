@@ -1,5 +1,5 @@
 export const getGifs = async category => {
-  const api = 'http://api.giphy.com/v1/gifs/search';
+  const api = 'https://api.giphy.com/v1/gifs/search';
   const query = 'Rick%20and%20Morty';
   const limit = 10;
   const apiKey = 'KRxKcoX6pFd5oeqdKVP5d6KatagRR9NB';
